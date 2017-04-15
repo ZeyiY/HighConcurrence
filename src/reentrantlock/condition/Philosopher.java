@@ -6,6 +6,8 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Created by yangsen on 2017/4/13.
+ *
+ * ReentrantLock Condition 实现哲学家就餐问题，避免死锁和活锁问题
  */
 public class Philosopher extends Thread {
     private boolean         eating;
